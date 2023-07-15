@@ -12,8 +12,7 @@ starting = ['Initializing program',
 		'Checking the internet connection',
 		'Caliberating and examining all the core processes',
 		'Wait a moment sir',
-		'System has been activated now',
-		'Now please tell me how may I help you']
+		'System has been activated now']
 
 def inits():
 	for s in starting:
@@ -36,6 +35,7 @@ def inits():
 		sleep(1)
 		print("✅ done")
 		sleep(1)
+    print('\nNow please tell me how may I help you')
 
 if __name__ == "__main__":
 	inits()

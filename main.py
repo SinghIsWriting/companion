@@ -13,7 +13,7 @@ from webbrowser import open
 from path import path
 
 def takeCommand():
-    print(f"{Fore.GREEN}-"*107)
+    print("\n", f"{Fore.GREEN}-"*107)
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Listening...")
@@ -23,7 +23,7 @@ def takeCommand():
     try:
         print(f"{Fore.GREEN}Recognizing...")
         query = r.recognize_google(audio, language= 'en-in')
-        print(f"User said: {query}\n")
+        print(f"You said: {query}\n")
     except Exception as e:
         print(f"{Fore.RED}Sorry sir...please repeat it again.", e)
         return "None"
@@ -88,8 +88,8 @@ if __name__ == "__main__":
 		elif res in chat.qns.keys():
 			from speak import speak
 			t = chat.qns[res]
-			speak(t)
 			print("Charlin:",f"{Fore.MAGENTA}"+t)
+			speak(t)
 		elif "weather" in res:
 			w = res.replace("weather","")
 			w1 = w.replace(" of ","")
