@@ -22,15 +22,14 @@ To get started, follow the instructions below to clone the repository and run th
 ## Setup
 To set up the assistant and use all the features, please perform the following actions:
 
-1. Change the main path in the `path.py` file to reflect the desired location on your system.
-2. Set a password in the specified file `txt/passwd.txt` to ensure secure access.
-3. Set a owner's name in the specified file `txt/owner.txt`  or you can command during the conversation to the program to change/reset the owner's name.
-4. Add your and your relatives birth dates to the `csv/bdays.csv` file for the assistant to provide birthday reminders.
-5. Obtain an API key from `OpenWeatherMap` and add it to the appropriate location in the code to enable weather information retrieval. To do the same, visit https://api.openweathermap.org/ and Signin/Signup then generate your own API Key.
-6. Obtain an app ID from `WolframAlpha` and add it to the code to enable mathematics and scientific queries. To do the same, visit https://www.wolframalpha.com/ and Signin/Signup then generate your own APP ID.
-7. Add your favorite songs to the `mp3/songs/` folder for the assistant to play on request with song name, and you can play more songs on Spotify.
-8. Configure the News API in the `news.py` file to retrieve recent news updates. To do the same, visit https://newsapi.org/ and Signin/Signup then generate your own API Key.
-9. Obtain a NASA API key and add it to the `nasa.py` file for accessing NASA updates and asteroid tracking. To do the same, visit https://api.nasa.gov/ and Signin/Signup then generate your own API Key.
+1. Set a password in the specified file `txt/passwd.txt` to ensure secure access.
+2. Set a owner's name in the specified file `txt/owner.txt`  or you can command during the conversation to the program to change/reset the owner's name.
+3. Add your and your relatives birth dates to the `csv/bdays.csv` file for the assistant to provide birthday reminders.
+4. Obtain an API key from `OpenWeatherMap` and add it to the appropriate location in the code to enable weather information retrieval. To do the same, visit https://api.openweathermap.org/ and Signin/Signup then generate your own API Key.
+5. Obtain an app ID from `WolframAlpha` and add it to the code to enable mathematics and scientific queries. To do the same, visit https://www.wolframalpha.com/ and Signin/Signup then generate your own APP ID.
+6. Add your favorite songs to the `mp3/songs/` folder for the assistant to play on request with song name, and you can play more songs on Spotify.
+7. Configure the News API in the `news.py` file to retrieve recent news updates. To do the same, visit https://newsapi.org/ and Signin/Signup then generate your own API Key.
+8. Obtain a NASA API key and add it to the `nasa.py` file for accessing NASA updates and asteroid tracking. To do the same, visit https://api.nasa.gov/ and Signin/Signup then generate your own API Key.
 
 ## Usage
 1. Run the main.py script:
