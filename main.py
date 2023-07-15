@@ -9,7 +9,7 @@ init(autoreset = True)
 import birthd
 from getpass import getpass
 from speak import speak
-from webbrowser import open
+import webbrowser
 from path import path
 
 def takeCommand():
@@ -188,7 +188,7 @@ if __name__ == "__main__":
 			m = l.replace(" of ","")
 			n = m.replace("show ","")
 			o = n.replace("the ","").strip()
-			open(f"https://www.google.com/maps/place/{o}")
+			webbrowser.open(f"https://www.google.com/maps/place/{o}")
 		elif "movie" in res:
 			if " table " in res or " list " in res or "upcoming" in res:
 				from new_movies import table
@@ -277,7 +277,7 @@ if __name__ == "__main__":
 				from popul import table
 				table()
 				sleep(5)
-				open("https://www.worldometers.info/world-population/")
+				webbrowser.open("https://www.worldometers.info/world-population/")
 			elif "chief minister" in res:
 				from cms import table
 				table()
