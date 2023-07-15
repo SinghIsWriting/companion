@@ -2,6 +2,9 @@
 Welcome to your real Companion! This assistant provides a wide range of features and functionalities to assist you with various tasks. Before using all the features, please follow the setup instructions below.
 This repository can become your real companion. Python scripts in this repository use some amazing applications of python language. This assistant provides a wide range of features and functionalities to assist you with various tasks.
 
+![Companion-2-Screenshot 2023-07-15 223015](https://github.com/SinghIsWriting/companion/assets/122283853/bf8c2f46-0417-4e56-8d41-40fa8ddaff17)
+
+
 ## Getting Started
 To get started, follow the instructions below to clone the repository and run the main script.
 
