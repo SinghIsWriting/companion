@@ -14,13 +14,19 @@ To get started, follow the instructions below to clone the repository and run th
 
 ## Installation
 1. Clone the repository to your local machine using the following command:
-2. ```git clone https://github.com/SinghIsWriting/companion.git```
-3. Alternatively, you can download the repository as a ZIP file and extract it.
-4. Navigate to the project directory:
-5. ```cd companion```
-6. Install any required dependencies:
-7. ```pip3 install -r requirements.txt```
-8. Now proceed to setup.
+```
+git clone https://github.com/SinghIsWriting/companion.git
+```
+2. Alternatively, you can download the repository as a ZIP file and extract it.
+3.  Navigate to the project directory:
+```python
+cd companion
+```
+4. Install any required dependencies:
+```python
+pip3 install -r requirements.txt
+```
+5. Now proceed to setup.
 
 ## Setup
 To set up the assistant and use all the features, please perform the following actions:
@@ -36,9 +42,11 @@ To set up the assistant and use all the features, please perform the following a
 
 ## Usage
 1. Run the main.py script:
-2. ```python3 main.py```
-3. Now after entering your password you can start a conversation with your true companion
-4. Take a look on some major features of this companion program.
+```python
+python3 main.py
+```
+2. Now after entering your password you can start a conversation with your true companion
+3.  Take a look on some major features of this companion program.
 
 ## Features
 The Companion program offers the following major features:
