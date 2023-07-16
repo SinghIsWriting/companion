@@ -13,7 +13,7 @@ import webbrowser
 from path import path
 
 def takeCommand():
-    print("\n", f"{Fore.GREEN}-"*107)
+    print("\n"+f"{Fore.BLUE}-"*107)
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Listening...")

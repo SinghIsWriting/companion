@@ -35,7 +35,7 @@ def inits():
 		sleep(1)
 		print("✅ done")
 		sleep(1)
-	print('\nNow please tell me how may I help you')
+	print('\nNow please tell me how may I help you?')
 
 if __name__ == "__main__":
 	inits()
