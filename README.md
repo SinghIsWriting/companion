@@ -2,8 +2,10 @@
 Welcome to your real Companion! This assistant provides a wide range of features and functionalities to assist you with various tasks. Before using all the features, please follow the setup instructions below.
 This repository can become your real companion. Python scripts in this repository use some amazing applications of python language. This assistant provides a wide range of features and functionalities to assist you with various tasks.
 
-![Companion-3-Screenshot 2023-07-16 131001](https://github.com/SinghIsWriting/companion/assets/122283853/7ecc6e4b-2c6a-48b7-969e-cd53abb1edf0)
-
+<p align="center">
+<img width="80%" height="80%" src="https://github.com/SinghIsWriting/companion/assets/122283853/7ecc6e4b-2c6a-48b7-969e-cd53abb1edf0"/>
+</a>
+</p>
 
 ## Getting Started
 To get started, follow the instructions below to clone the repository and run the main script.
@@ -41,7 +43,7 @@ To set up the assistant and use all the features, please perform the following a
 8. Obtain a NASA API key and add it to the `nasa.py` file for accessing NASA updates and asteroid tracking. To do the same, visit https://api.nasa.gov/ and Signin/Signup then generate your own API Key.
 
 ## Usage
-1. Run the main.py script:
+1. Run the `main.py` script:
 ```python
 python3 main.py
 ```
